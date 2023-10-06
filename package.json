@@ -1,7 +1,7 @@
 {
-  "name": "ens-backend",
-  "version": "1.0.0",
-  "description": "",
+  "name": "mango-domain-validator",
+  "version": "0.1.0",
+  "description": "A lightweight and secure SDK providing seamless user authentication using Mango Domains.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.5.1",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
