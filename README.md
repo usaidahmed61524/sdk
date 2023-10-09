@@ -1,4 +1,3 @@
-
 # Mango Domain Validate SDK 👋
 
 Mango Domain Validate Integration SDK provides a lightweight and secure SDK providing seamless user authentication using Mango Domains.
