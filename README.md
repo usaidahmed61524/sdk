@@ -16,6 +16,7 @@ import MangoDomainValidator from "mango-domain-validate/sdk/domain-checker-sdk";
 const mangoDomain = new MangoDomainValidator();
 
 Login with mmit domain ⤵️
+
 try {
 const result = await mangoDomain.validateUser(domain, tokenId);
 console.log(result.data);
@@ -24,12 +25,14 @@ console.log(error)
 }
 
 Output success ⤵️
+
 {
 "success": true,
 "message": "User validated"
 }
 
 Output Failure ⤵️
+
 {
 "success": false,
 "message": "Credentials Not Valid"
